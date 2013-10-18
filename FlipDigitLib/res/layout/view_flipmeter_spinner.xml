@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:padding="1dip" >
+
+    <ImageView
+        android:id="@+id/FlipMeterSpinner_image_back_upper"
+        android:layout_width="30dip"
+        android:layout_height="22dip"
+        android:src="@drawable/digit_0_upper" />
+
+    <ImageView
+        android:id="@+id/FlipMeterSpinner_image_back_lower"
+        android:layout_width="30dip"
+        android:layout_height="22dip"
+        android:layout_below="@+id/FlipMeterSpinner_image_back_upper"
+        android:src="@drawable/digit_0_lower" />
+
+    <ImageView
+        android:id="@+id/FlipMeterSpinner_image_front_upper"
+        android:layout_width="30dip"
+        android:layout_height="22dip"
+        android:src="@drawable/digit_0_upper" />
+
+    <ImageView
+        android:id="@+id/FlipMeterSpinner_image_front_lower"
+        android:layout_width="30dip"
+        android:layout_height="22dip"
+        android:layout_below="@+id/FlipMeterSpinner_image_front_upper"
+        android:src="@drawable/digit_0_lower" />
+
+</RelativeLayout>

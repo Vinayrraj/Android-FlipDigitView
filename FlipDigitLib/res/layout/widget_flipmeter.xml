@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="1dip" >
+
+    <com.punchh.widget.FlipmeterSpinner
+        android:id="@+id/widget_flipmeter_spinner_100k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.punchh.widget.FlipmeterSpinner
+        android:id="@+id/widget_flipmeter_spinner_10k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.punchh.widget.FlipmeterSpinner
+        android:id="@+id/widget_flipmeter_spinner_1k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.punchh.widget.FlipmeterSpinner
+        android:id="@+id/widget_flipmeter_spinner_100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.punchh.widget.FlipmeterSpinner
+        android:id="@+id/widget_flipmeter_spinner_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.punchh.widget.FlipmeterSpinner
+        android:id="@+id/widget_flipmeter_spinner_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
