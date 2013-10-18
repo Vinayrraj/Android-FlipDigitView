@@ -5,32 +5,32 @@
     android:orientation="horizontal"
     android:padding="1dip" >
 
-    <com.punchh.widget.FlipmeterSpinner
+    <com.vinayrraj.flipdigit.lib.FlipmeterSpinner
         android:id="@+id/widget_flipmeter_spinner_100k"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <com.punchh.widget.FlipmeterSpinner
+    <com.vinayrraj.flipdigit.lib.FlipmeterSpinner
         android:id="@+id/widget_flipmeter_spinner_10k"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <com.punchh.widget.FlipmeterSpinner
+    <com.vinayrraj.flipdigit.lib.FlipmeterSpinner
         android:id="@+id/widget_flipmeter_spinner_1k"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <com.punchh.widget.FlipmeterSpinner
+    <com.vinayrraj.flipdigit.lib.FlipmeterSpinner
         android:id="@+id/widget_flipmeter_spinner_100"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <com.punchh.widget.FlipmeterSpinner
+    <com.vinayrraj.flipdigit.lib.FlipmeterSpinner
         android:id="@+id/widget_flipmeter_spinner_10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <com.punchh.widget.FlipmeterSpinner
+    <com.vinayrraj.flipdigit.lib.FlipmeterSpinner
         android:id="@+id/widget_flipmeter_spinner_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />

@@ -11,7 +11,7 @@ import android.widget.ImageView;
  * @author VinayrajSingh
  * 
  */
-public class FlipDigit implements AnimationListener {
+class FlipDigit implements AnimationListener {
 
 	private ImageView flipImage_BackUpper = null;
 	private ImageView flipImage_BackLower = null;
