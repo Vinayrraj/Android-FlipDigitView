@@ -26,7 +26,7 @@ class FlipDigit implements AnimationListener {
 
 	private int animateTo = 0;
 	private int animateFrom = 0;
-
+	
 	public interface OnAnimationComplete {
 		public void onComplete(int id);
 	}
@@ -78,6 +78,7 @@ class FlipDigit implements AnimationListener {
 		animation1.setAnimationListener(this);
 		animation2 = AnimationUtils.loadAnimation(context, R.anim.flip_point_from_middle);
 		animation2.setAnimationListener(this);
+		animation2.setStartOffset(context.getResources().getInteger(R.integer.duration_point_flip_animation));
 
 	}
 
@@ -88,6 +89,7 @@ class FlipDigit implements AnimationListener {
 				onAnimComplete.onComplete(id);
 		} else {
 			startDigitAnimation(true);
+			startDigitAnimation(false);
 		}
 
 	}
@@ -241,7 +243,7 @@ class FlipDigit implements AnimationListener {
 	public void onAnimationEnd(Animation animation) {
 		if (animation == animation1) {
 			flipImage_FrontUpper.setVisibility(View.INVISIBLE);
-			startDigitAnimation(false);
+			
 
 		} else if (animation == animation2) {
 
